@@ -2,49 +2,48 @@ body {
     margin: 0;
     display: flex;
     min-height: 100vh;
+    width: 100%;
+    min-width: 1024px;
     flex-direction: column;
     text-align: center;
 }
+
 header, footer {
-    width: 100%;
     height: 70px;
-    background-color: gray;
+    background-color: black;
     flex: none;
 }
 
 header {
-    
+}
+footer {
+}
+
+main {
+    width: 100%;
+    flex: 1;
 }
 
 
-
-
-/*
-.mainMenu {
-    width: 844px;
-    height: 52px;
-    background-color: rgb(32, 32, 32);
-    z-index: 220;
-}
-.mainLogo {
-    background-color: rgb(252, 252, 252);
-    width: 212px;
-    height: 52px;
-    z-index: 221;
-}
-.headerMenu {
-    position: absolute;
-    margin: 0 auto -52px 181px;
-}
 .headerLogo {
-    position: absolute;
-    margin: 0 auto;
- }
+    background-color: white;
+}
+.footerLogo {
+    background-color: black;
+}
+
+.mainLogo {
+    height: 70px;
+    width: 410px;
+    float: left;
+}
+
+
 .headerNavigation {
 
 }
+
 .headerNavigation ul{
-    padding-right: 226px;
 
 }
 .headerNavigation li {
@@ -57,93 +56,15 @@ header {
     line-height: 1.167;
     margin-left: 14px;
 }
-.wrapper {
-    box-sizing: border-box;
-    text-align: center;
-    margin: 100px auto;
-}
-.icon-search-container {
+
+.socialMenu {
     display: inline-block;
-    border: 2px solid #d9d9d9;
-    border-radius: 50px;
-    height: 50px;
-    width: 50px;
-    position: relative;
-    transition: width 0.4s ease-out;
-    backface-visibility: hidden;
-
-&.active {
-     width: 285px;
-
-.fa-times-circle {
-    opacity: 1;
-}
-.search-input {
-    width: 200px;
-}
 }
 
-.fa-search {
-    color: #2980b9;
-    font-size: 30px;
-    position: absolute;
-    top: 7px;
-    left: 8px;
-    cursor: pointer;
+.socialMenu li {
+    list-style: none;
+    display: inline;
+    background-color: white;
+    width: 10px;
+    height: 10px;
 }
-.fa-times-circle {
-    opacity: 0;
-    color: #d9d9d9;
-    font-size: 20px;
-    position: absolute;
-    top: 12px;
-    right: 8px;
-    transition: opacity 0.4s ease-out;
-    cursor: pointer;
-}
-
-.search-input {
-    position: absolute;
-    cursor: default;
-    left: 45px;
-    top: 6px;
-    width: 0;
-    padding: 5px;
-    border: none;
-    outline: none;
-    font-size: 18px;
-    line-height: 20px;
-    background-color: rgba(255, 255, 255, 0);
-    transition: width 0.4s ease-out;
-}
-
-}
-.headerFlag {
-
-}
-.headerSotial {
-
-}
-*/
-
-main {
-    width: 100%;
-    flex: 1;
-
-}
-
-footer {
-}
-/*
-.footerMenu {
-    position: absolute;
-    margin: 0 auto -52px 181px;
-}
-.footerLogo {
-    position: absolute;
-    margin: 0 auto;
-}
-.footerSotial {
-
-}
-*/
