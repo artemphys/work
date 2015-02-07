@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" type="text/css" href="Шаблон.css">
-    <link rel="stylesheet" type="text/css" href="Главная.css">
+    <link rel="stylesheet" type="text/css" href="Главная.css"><--для главной страницы-->
+    <link rel="stylesheet" type="text/css" href="homeslides.css"><--для главной страницы-->
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
     <script type="text/javascript" src="Шаблон.js"></script>
+    <script type="text/javascript" src="homeslides.js"></script>
+    <script>
+        $(function(){
+            $("#slides").slides({
+                slide: {
+                    browserWindow: true
+                }
+            });
+        });
+    </script><--для главной страницы-->
 </head>
 <body>
 <header>
@@ -39,12 +50,35 @@
            <div class="homeFirstBlock">
                <div class="homeFirstBlockPlayButton">
                </div>
-               <div class="homeFirstBlockGoTo">
-               </div>
-               <div class="homeFirstBlockBottom">
+               <div class="homeFirstBlockWrapper">
+                  <div class="homeFirstBlockGoTo">
+                      <p>Перейти в каталог &#187;</p>
+                  </div>
+                  <div class="homeFirstBlockBottom">
+                      <p>Описание</p>
+                  </div>
                </div>
            </div>
            <div class="homeAboutCompany">
+               <h1>О Компании</h1>
+               <hr></hr>
+               <div id="container">
+                   <div id="slides">
+                       <img src="http://slidesjs.com/examples/standard/img/slide-1.jpg" width="780" height="300" alt="Slide 1">
+
+                       <img src="http://slidesjs.com/examples/standard/img/slide-2.jpg" width="780" height="300" alt="Slide 2">
+
+                       <img src="http://slidesjs.com/examples/standard/img/slide-3.jpg" width="780" height="300" alt="Slide 3">
+
+                       <img src="http://slidesjs.com/examples/standard/img/slide-4.jpg" width="780" height="300" alt="Slide 4">
+
+                       <img src="http://slidesjs.com/examples/standard/img/slide-5.jpg" width="780" height="300" alt="Slide 5">
+
+                       <img src="http://slidesjs.com/examples/standard/img/slide-6.jpg" width="780" height="300" alt="Slide 6">
+
+                       <img src="http://slidesjs.com/examples/standard/img/slide-7.jpg" width="780" height="300" alt="Slide 7">
+                   </div>
+               </div>
            </div>
            <div class="homeCatalog">
            </div>
