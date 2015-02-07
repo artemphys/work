@@ -93,18 +93,6 @@ header, footer {
 
 }
 
-/*
-background: #4e729a url(/images/hatf.gif?1) -4px 0px;
-background-image: url(https://vk.com/images/hatf.gif?1);
-background-position-x: -4px;
-background-position-y: 0px;
-background-size: initial;
-
-background-attachment: initial;
-background-origin: initial;
-background-clip: initial;
-background-color: rgb(78, 114, 154);*/
-
 main {
     text-align: center;
     width: 100%;
@@ -128,12 +116,15 @@ main {
 
 
 .headerNavigation {
+    display: inline-table;
+    position: relative;
 
 }
 
 .headerNavigation ul{
-
+    padding-left: 30px;
 }
+
 .headerNavigation li {
     list-style: none;
     display: inline;
@@ -142,14 +133,13 @@ main {
     color: rgb(252, 252, 252);
     text-transform: uppercase;
     line-height: 1.167;
-    margin-left: 14px;
+    margin-right: 14px;
 }
 
 .center{
     display: table-cell;
     vertical-align: middle;
 }
-
 
 .language {
     position: absolute;
