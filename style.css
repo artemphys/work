@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
     margin: 0;
     min-height: 100vh;
@@ -121,7 +125,7 @@ main {
     display: inline-block;
     width: 20px;
     height: 20px;
-    margin: 0 15px 0 0;
+    margin: 0 0 0 12px;
     background: transparent url(images/soc_twe.png) center no-repeat;
 }
 
@@ -138,7 +142,7 @@ main {
     display: inline-block;
     width: 20px;
     height: 20px;
-    margin: 0 15px 0 0;
+    margin: 0 0 0 12px;
 }
 
 .socialMenu .twitter {
@@ -149,4 +153,76 @@ main {
 }
 .socialMenu .vkontakte {
     background: transparent url(images/soc_vk.png) center no-repeat;
+}
+
+/*search container*/
+
+.wrapper {
+    text-align: left;
+    position: absolute;
+    display: inline-table;
+    height: 100%;
+    float: right;
+    right: 250px;
+    width: 200px;
+}
+.icon-search-container {
+  display: inline-block;
+  border: 2px solid #d9d9d9;
+  border-radius: 35px;
+  height: 35px;
+  width: 35px;
+  position: relative;
+  transition: width 0.4s ease-out;
+  backface-visibility: hidden;
+}
+.icon-search-container.active {
+  width: 205px;
+}
+.icon-search-container.active .fa-times-circle {
+  opacity: 1;
+}
+.icon-search-container.active .search-input {
+  width: 140px;
+}
+.icon-search-container .fa-search {
+  color: #2980b9;
+  font-size: 30px;
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  cursor: pointer;
+}
+
+.fa-search:before {
+content: "\f002";
+}
+
+.fa-times-circle:before {
+content: "\f057";
+}
+
+.icon-search-container .fa-times-circle {
+  opacity: 0;
+  color: #d9d9d9;
+  font-size: 20px;
+  position: absolute;
+  top: 12px;
+  right: 8px;
+  transition: opacity 0.4s ease-out;
+  cursor: pointer;
+}
+.icon-search-container .search-input {
+  position: absolute;
+  cursor: default;
+  left: 25px;
+  top: 0px;
+  width: 0;
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  transition: width 0.4s ease-out;
 }
