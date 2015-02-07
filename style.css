@@ -1,40 +1,87 @@
 body {
     margin: 0;
-    display: flex;
     min-height: 100vh;
     width: 100%;
     min-width: 1024px;
+    display: flex;
     flex-direction: column;
-    text-align: center;
+    background-color: #fcfcfc;
 }
 
 header, footer {
-    height: 70px;
-    background-color: black;
+    position: relative;
+    background-color: #222;
     flex: none;
+    display: table;
+    width: 100%;
 }
 
-header {
+@media (max-width: 1200px) {
+    header {
+        height: 50px;
+    }
+
+    footer {
+        height: 58px;
+    }
 }
-footer {
+
+@media (min-width: 1200px) {
+    header {
+        height: 80px;
+    }
+
+    footer {
+        height: 88px;
+    }
+
+    .headerLogo {
+        background-image: url(images/logo_h_bl.png);
+    }
+
+    .headerLogo:hover {
+        background-image: url(images/logo_h.png);
+    }
+
+    .footerLogo {
+        background-image: url(images/logo_f.png);
+    }
+
+    .headerLogo, .footerLogo {
+        width: 470px;
+    }
 }
+
+/*
+background: #4e729a url(/images/hatf.gif?1) -4px 0px;
+background-image: url(https://vk.com/images/hatf.gif?1);
+background-position-x: -4px;
+background-position-y: 0px;
+background-size: initial;
+
+background-attachment: initial;
+background-origin: initial;
+background-clip: initial;
+background-color: rgb(78, 114, 154);*/
 
 main {
+    text-align: center;
     width: 100%;
     flex: 1;
 }
 
 
 .headerLogo {
-    background-color: white;
-}
-.footerLogo {
-    background-color: black;
+    background-color: #fcfcfc;
 }
 
-.mainLogo {
-    height: 70px;
-    width: 410px;
+.footerLogo {
+}
+
+.headerLogo, .footerLogo {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
     float: left;
 }
 
@@ -57,14 +104,45 @@ main {
     margin-left: 14px;
 }
 
-.socialMenu {
-    display: inline-block;
+.center{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
 }
 
-.socialMenu li {
-    list-style: none;
+
+.language {
     display: inline;
-    background-color: white;
-    width: 10px;
-    height: 10px;
+    position: relative;
+    right: 400px;
+}
+.language .twitter {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 15px 0 0;
+    background: transparent url(images/soc_twe.png) center no-repeat;
+}
+
+
+.socialMenu {
+    display: inline;
+    position: relative;
+    right: 100px;
+}
+.socialMenu a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 15px 0 0;
+}
+
+.socialMenu .twitter {
+    background: transparent url(images/soc_twe.png) center no-repeat;
+}
+.socialMenu .facebook {
+    background: transparent url(images/soc_fb.png) center no-repeat;
+}
+.socialMenu .vkontakte {
+    background: transparent url(images/soc_vk.png) center no-repeat;
 }
