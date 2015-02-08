@@ -171,9 +171,13 @@ main {
     display: inline;
     /*font-size: 12vw;*/
     font-family: "OpenSansRegular";
-    color: rgb(252, 252, 252);
+    color: rgb(173, 173, 173);
     text-transform: uppercase;
     line-height: 1.167;
+}
+
+.headerNavigation li:hover {
+    color: rgb(252, 252, 252);
 }
 
 .headerNavigation ul {
@@ -213,7 +217,6 @@ main {
     display: inline-block;
     width: 22px;
     height: 22px;
-    /*height: 100%;*/
     margin: 0;
     margin-left: 1vw;
 
@@ -256,8 +259,9 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1.2vw;
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
+    margin: -5px;
 }
 
 .fa-search:before {
