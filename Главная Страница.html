@@ -5,21 +5,17 @@
     <title></title>
     <link rel="stylesheet" type="text/css" href="Шаблон.css">
     <link rel="stylesheet" type="text/css" href="Главная.css"><--для главной страницы-->
-    <link rel="stylesheet" type="text/css" href="homeslides.css"><--для главной страницы-->
+    <!-- bxSlider CSS file -->
+    <link href="jquery.bxslider.css" rel="stylesheet" /><--для главной страницы-->
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
     <script type="text/javascript" src="Шаблон.js"></script>
-    <script type="text/javascript" src="homeslides.js"></script>
-    <script>
-        $(function(){
-            $("#slides").slides({
-                slide: {
-                    browserWindow: true
-                }
-            });
-        });
-    </script><--для главной страницы-->
+    <!-- bxSlider Javascript file -->
+    <script src="jquery.bxslider.min.js"></script><--для главной страницы-->
+    <script>$(document).ready(function(){
+        $('.bxslider').bxSlider();
+    });</script>
 </head>
 <body>
 <header>
@@ -62,23 +58,14 @@
            <div class="homeAboutCompany">
                <h1>О Компании</h1>
                <hr></hr>
-               <div id="container">
-                   <div id="slides">
-                       <img src="http://slidesjs.com/examples/standard/img/slide-1.jpg" width="780" height="300" alt="Slide 1">
-
-                       <img src="http://slidesjs.com/examples/standard/img/slide-2.jpg" width="780" height="300" alt="Slide 2">
-
-                       <img src="http://slidesjs.com/examples/standard/img/slide-3.jpg" width="780" height="300" alt="Slide 3">
-
-                       <img src="http://slidesjs.com/examples/standard/img/slide-4.jpg" width="780" height="300" alt="Slide 4">
-
-                       <img src="http://slidesjs.com/examples/standard/img/slide-5.jpg" width="780" height="300" alt="Slide 5">
-
-                       <img src="http://slidesjs.com/examples/standard/img/slide-6.jpg" width="780" height="300" alt="Slide 6">
-
-                       <img src="http://slidesjs.com/examples/standard/img/slide-7.jpg" width="780" height="300" alt="Slide 7">
-                   </div>
-               </div>
+               <ul class="bxslider">
+                   <li><img src="images/testSlide.gif"></li>
+                   <li><img src="images/MANMARU 66SA.gif"></li>
+                   <li><img src="images/MARU 86 BE.png"></li>
+                   <li><img src="images/MARU 86-2 bl.png"></li>
+                   <li><img src="images/Sakawa.png"></li>
+               </ul>
+               <h1>Описание</h1>
            </div>
            <div class="homeCatalog">
            </div>
@@ -87,14 +74,14 @@
            <div class="homeFeedback">
            </div>
        </main>
-<footer>
+<!--<footer>
     <div class='footerLogo mainLogo'>
     </div>
     <div class='footerMenu mainMenu'>
         <div class="footerSotial">
         </div>
     </div>
-</footer>
+</footer>-->
 
 </body>
 </html>
