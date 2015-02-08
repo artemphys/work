@@ -4,9 +4,8 @@
 
 body {
     margin: 0;
-    min-height: 100vh;
     width: 100%;
-    min-width: 1024px;
+    min-width: 1005px;
     display: flex;
     flex-direction: column;
     background-color: #fcfcfc;
@@ -118,22 +117,32 @@ main {
 .headerNavigation {
     display: inline-table;
     position: relative;
-
+    height: 100%;
 }
 
 .headerNavigation ul{
-    padding-left: 30px;
+    padding-left: 20px;
+}
+
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+    url("fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
 .headerNavigation li {
     list-style: none;
     display: inline;
     font-size: 12px;
-    font-family: "OpenSans";
+    font-family: "OpenSansRegular";
     color: rgb(252, 252, 252);
     text-transform: uppercase;
     line-height: 1.167;
-    margin-right: 14px;
+    margin-right: 10px;
 }
 
 .center{
