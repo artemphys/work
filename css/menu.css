@@ -157,15 +157,6 @@ footer {
     color: rgb(252, 252, 252);
 }
 
-.headerNavigation ul {
-    margin-top: 12px;
-}
-
-.center{
-    display: table-cell;
-    vertical-align: middle;
-}
-
 .language {
     position: absolute;
     display: inline-table;
