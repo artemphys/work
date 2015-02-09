@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    min-width: 1005px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fcfcfc;
+	font-family: "OpenSansRegular";
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+    flex: 1;
+}
+
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
