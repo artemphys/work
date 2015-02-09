@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+		<link rel="stylesheet" type="text/css" href="set1.css">
+
+		<script type="text/javascript">
+		$(document).ready(function(){
+  
+  var $searchTrigger = $('[data-ic-class="search-trigger"]'),
+      $searchInput = $('[data-ic-class="search-input"]'),
+      $searchClear = $('[data-ic-class="search-clear"]');
+  
+  $searchTrigger.click(function(){
+    
+    var $this = $('[data-ic-class="search-trigger"]');
+    $this.addClass('active');
+    $searchInput.focus();
+    
+  });
+  
+  $searchInput.blur(function(){
+    
+    if($searchInput.val().length > 0){
+      
+      return false;
+      
+    } else {
+      
+      $searchTrigger.removeClass('active');
+      
+    }
+    
+  });
+  
+  $searchClear.click(function(){
+    $searchInput.val('');
+  });
+  
+  $searchInput.focus(function(){
+    $searchTrigger.addClass('active');
+  });
+  
+});
+		</script>
+</head>
+<body>
+<header>
+	<div class="headerLogo"></div>
+	<div class="headerNavigation">
+		<div class="center">
+			<ul>
+				<li>НОВОСТИ</li>
+				<li>КАТАЛОГ</li>
+				<li>НОВИНКИ</li>
+				<li>ОСОБЕННОСТИ</li>
+				<li>О НАС</li>
+				<li>КОНТАКТЫ</li>
+				<li>ГДЕ КУПИТЬ</li>
+			</ul>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div class="center">
+			<div class="icon-search-container" data-ic-class="search-trigger">
+				<span class="fa fa-search"></span>
+				<input type="text" class="search-input" data-ic-class="search-input" placeholder="Search"/>
+				<span class="fa fa-times-circle" data-ic-class="search-clear"></span>
+			</div>
+		</div>
+	</div>
+	<div class="language">
+		<div class="center">
+			<a href="#" class="twitter" target="_blank"></a>
+		</div>
+	</div>
+	<div class="socialMenu">
+		<div class="center">
+			<a href="#" class="twitter" target="_blank"></a>
+			<a href="#" class="facebook" target="_blank"></a>
+			<a href="#" class="vkontakte" target="_blank"></a>
+		</div>
+	</div>
+</header>
+
+<main>
+	<div class="grid">
+		<!-- MILO effect from -->
+		<!-- http://tympanus.net/Development/HoverEffectIdeas/ -->
+		<figure class="effect-milo">
+			<img src="images/1.jpg">
+			<figcaption>
+				<h2><span>Смесители</span></h2>
+				<p>Milo went to the woods. He took a fun ride and never came back.</p>
+				<a href="#">View more</a>
+			</figcaption>
+		</figure>
+		<figure class="effect-milo">
+			<img src="images/1.jpg">
+			<figcaption>
+				<h2><span>Мойки</span></h2>
+				<p>Milo went to the woods. He took a fun ride and never came back.</p>
+				<a href="#">View more</a>
+			</figcaption>
+		</figure>
+		<figure class="effect-milo">
+			<img src="images/1.jpg">
+			<figcaption>
+				<h2><span>Водоочистители</span></h2>
+				<p>Milo went to the woods. He took a fun ride and never came back.</p>
+				<a href="#">View more</a>
+			</figcaption>
+		</figure>
+	<div style="clear: both;"></div>
+		<figure class="effect-milo">
+			<img src="images/1.jpg">
+			<figcaption>
+				<h2><span>Вытяжные<br>короба</span></h2>
+				<p>Milo went to the woods. He took a fun ride and never came back.</p>
+				<a href="#">View more</a>
+			</figcaption>
+		</figure>
+		<figure class="effect-milo">
+			<img src="images/1.jpg">
+			<figcaption>
+				<h2><span>Диспенсеры</span></h2>
+				<p>Milo went to the woods. He took a fun ride and never came back.</p>
+				<a href="#">View more</a>
+			</figcaption>
+		</figure>
+		<figure class="effect-milo">
+			<img src="images/1.jpg">
+			<figcaption>
+				<h2><span>Аксессуары</span></h2>
+				<p>Milo went to the woods. He took a fun ride and never came back.</p>
+				<a href="#">View more</a>
+			</figcaption>
+		</figure>
+		<div style="clear: both;"></div>
+	</div>
+</main>
+<footer>
+	<div class="footerLogo"></div>
+	<div class="language">
+		<div class="center">
+			<a href="#" class="twitter" target="_blank"></a>
+		</div>
+	</div>
+	<div class="socialMenu">
+		<div class="center">
+			<a href="#" class="twitter" target="_blank"></a>
+			<a href="#" class="facebook" target="_blank"></a>
+			<a href="#" class="vkontakte" target="_blank"></a>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
