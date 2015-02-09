@@ -32,7 +32,7 @@
     padding: 2em;
     color: #fff;
     text-transform: uppercase;
-    font-family: "OpenSansRegular";
+    font-family: "OpenSansSemibold";
     font-size: 0.8em;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -79,7 +79,8 @@
 
 .grid figure p {
     letter-spacing: 1px;
-    font-size: 68.5%;
+    font-size: 80%;
+    font-family: "OpenSansLight";
 }
 
 

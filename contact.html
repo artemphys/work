@@ -3,21 +3,15 @@
 <head lang="en">
 		<meta charset="UTF-8">
 		<title></title>
-    <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/menu.css">
 		<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
 		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 		<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 
-		<link rel="stylesheet" href="css/index.css"><!--для главной страницы-->
-		<link rel="stylesheet" href="css/jquery.bxslider.css"><!--для главной страницы-->
-		<script src="js/jquery.bxslider.min.js"></script><!--для главной страницы-->
-		<script>
-		/*главная страница*/
-		$(document).ready(function(){
-			$('.bxslider').bxSlider();
-		});
+		<link rel="stylesheet" href="css/catalog.css"><!--для страницы каталога-->
 
+		<script>
 		$(document).ready(function(){
   
   var $searchTrigger = $('[data-ic-class="search-trigger"]'),
@@ -55,11 +49,20 @@
   });
   
 });
+
+/***************************************************************/
+//map overlay;
+		$(document).ready(function(){
+// $(document).click(function() {
+// 	$('main .article .mapOverlay').css('pointerEvents','auto');
+// })
+/***************************************************************/
+		});
 		</script>
 </head>
 <body>
 <header>
-  <div class="headerLogo"><a href="index.html"></a></div>
+	<div class="headerLogo"><a href="index.html"></a></div>
 	<div class="headerNavigation">
 		<div class="center">
 			<ul>
@@ -95,65 +98,55 @@
 		</div>
 	</div>
 </header>
-       <main>
-           <div class="article homeFirstBlock">
-               <div class="homeFirstBlockPlayButton">
-               </div>
-               <div class="homeFirstBlockWrapper">
-                  <div class="homeFirstBlockGoTo">
-                      <p class="center">Перейти в каталог &#187;</p>
-                  </div>
-                  <div class="homeFirstBlockBottom">
-                      <p class="center">Описание</p>
-                  </div>
-               </div>
-           </div>
-           <div class="article homeAboutCompany">
-               <h1>О Компании</h1>
-               <hr>
-               <div class="homeAboutCompanySlider">
-               <ul class="bxslider">
-                   <li><img src="images/testSlide.gif"></li>
-                   <li><img src="images/MANMARU 66SA.gif"></li>
-                   <li><img src="images/MARU 86 BE.png"></li>
-                   <li><img src="images/MARU 86-2 bl.png"></li>
-                   <li><img src="images/Sakawa.png"></li>
-               </ul>
-               </div>
-               <p>Описание</p>
-           </div>
-           <div class="article homeCatalog">
-               <h1>Каталог</h1>
-               <hr></hr>
-               <div class="homeCatalogGoTo">
-                   <p class="center">Смотреть весь каталог</p>
-               </div>
-               <div class="homeCatalogSlider">
 
-               </div>
-           </div>
-           <div class="article homeAdvantages">
-               <p>Преимущества</p>
-               <hr>
-               <div class="homeAdvantagesMenu">
-                   <hr>
-                   <div class="homeAdvantagesMenuButtons">
-                      <h2>СМЕСИТЕЛИ</h2>
-                      <div class="vr"></div>
-                      <h2>МОЙКИ</h2>
-                   </div>
-                   <hr>
-               </div>
-               </div>
-           </div>
-           <div class="article homeFeedback">
-           </div>
-       </main>
+<main>
+	<div class="article">
+		<h1>Санкт-Петербург</h1>
+		<hr>
+		<p>191180, Россия, г.Санкт-Петербург,</p>
+		<p>Набережная реки Фонтанки, дом 76, офис 1</p>
+		<p>Тел.:  +7(812)458-59-60</p>
+
+		<div class="mapOverlay" onClick="style.pointerEvents='none'"></div>
+		<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1282.8375176393354!2d36.2629757303791!3d49.97995250002565!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a07e24e6e057%3A0x795a03ac9410f265!2z0JDQstGC0L7Qu9C40LPQsA!5e0!3m2!1sru!2sru!4v1423522707854"></iframe>
+	</div>
+
+	<div class="article">
+		<h1>Москва</h1>
+		<hr>
+		<p>111020, Россия, г. Москва,</p>
+		<p>2-ая ул. Синичкина, д.9а, БЦ "Синица-Плаза"</p>
+		<p>Тел.: +7(495) 644-32-22</p>
+
+		<div class="mapOverlay" onClick="style.pointerEvents='none'"></div>
+		<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1282.8375176393354!2d36.2629757303791!3d49.97995250002565!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a07e24e6e057%3A0x795a03ac9410f265!2z0JDQstGC0L7Qu9C40LPQsA!5e0!3m2!1sru!2sru!4v1423522707854"></iframe>
+	</div>
+
+	<div class="article">
+		<h1>Япония</h1>
+		<hr>
+		<p>550-000, Japan, Osaka, Nishi-ku,</p>
+		<p>Edobori 2-1-1,</p>
+		<p>tel.:+81 6 6225 1681</p>
+
+		<div class="mapOverlay" onClick="style.pointerEvents='none'"></div>
+		<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1282.8375176393354!2d36.2629757303791!3d49.97995250002565!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a07e24e6e057%3A0x795a03ac9410f265!2z0JDQstGC0L7Qu9C40LPQsA!5e0!3m2!1sru!2sru!4v1423522707854"></iframe>
+	</div>
+
+
+	<div class="article">
+		<h1>Если у Вас остались вопросы, оставьте заявку  и мы свяжемся с Вами</h1>
+		<hr>
+	</div>
+
+
+
+</main>
 <footer>
 	<div class="footerLogo"><a href="index.html"></a></div>
 	<div class="language">
 		<div class="center">
-      <a href="#" class="flag" target="_blank"></a>
+			<a href="#" class="flag" target="_blank"></a>
 		</div>
 	</div>
 	<div class="socialMenu">

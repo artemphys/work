@@ -155,6 +155,7 @@ footer {
 
 .headerNavigation li a:hover {
     color: rgb(252, 252, 252);
+    font-weight: bold;
 }
 
 .language {

@@ -8,6 +8,26 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: "OpenSansLight";
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+    url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSansSemibold";
+    src: url("../fonts/OpenSansSemibold/OpenSansSemibold.eot");
+    src: url("../fonts/OpenSansSemibold/OpenSansSemibold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansSemibold/OpenSansSemibold.woff") format("woff"),
+    url("../fonts/OpenSansSemibold/OpenSansSemibold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 * {
 	box-sizing: border-box;
     margin: 0;
@@ -22,7 +42,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #fcfcfc;
-	font-family: "OpenSansRegular";
+	font-family: "OpenSansLight";
 }
 
 a {
@@ -48,7 +68,7 @@ main .article {
 
 main .article hr {
 	width: 56px;
-	margin: 20px auto 50px auto;
+	margin: 20px auto;
 }
 
 main .article .vr {
@@ -61,3 +81,29 @@ main .article .vr {
 	padding: 0;
 }
 
+main .article h1 {
+	font-family: "OpenSansLight";
+	font-size: 24px;
+	font-weight: normal;
+	padding-top: 80px;
+}
+
+main .article p {
+	font-family: "OpenSansLight";
+	font-size: 14px;
+}
+
+main .article .mapOverlay {
+   background: transparent; 
+   position: relative; 
+   width: 100%;
+   height: 460px; /* your iframe height */
+   top: 460px;  /* your iframe height */
+   margin-top: -460px;  /* your iframe height */
+}
+
+main .article .map {
+	border:0;
+	height: 460px;
+	width: 100%;
+}

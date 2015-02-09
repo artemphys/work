@@ -44,9 +44,6 @@
     width: 100%;
     height: 770px;
 }
-.homeAboutCompany h1 {
-    padding-top: 80px;
-}
 .homeAboutCompanySlider {
     width: 420px;
     height: 264px;
@@ -56,9 +53,6 @@
     position: relative;
     width: 100%;
     height: 770px;
-}
-.homeCatalog h1 {
-    padding-top: 80px;
 }
 .homeCatalogGoTo {
     margin: 0 auto;
