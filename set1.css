@@ -1,9 +1,8 @@
 
 .grid {
     position: relative;
-    margin: 4vw 0;
-    max-width: 920px;
-    width: 920px;
+    margin: 8vw auto;
+    max-width: 950px;
     list-style: none;
     text-align: center;
 }
@@ -13,8 +12,8 @@
     position: relative;
     float: left;
     overflow: hidden;
-    margin: 5px;
-    width: 290px;
+    margin: 7px;
+    width: 300px;
     height: 200px;
     background: #3085a3;
     text-align: center;
@@ -33,7 +32,8 @@
     padding: 2em;
     color: #fff;
     text-transform: uppercase;
-    font-size: 1.25em;
+    font-family: "OpenSansRegular";
+    font-size: 0.8em;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
@@ -65,6 +65,7 @@
 .grid figure h2 {
     word-spacing: -0.15em;
     font-weight: 300;
+    text-align: left;
 }
 
 .grid figure h2 span {
