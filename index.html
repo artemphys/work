@@ -6,55 +6,20 @@
     <link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/menu.css">
 		<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    
 		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 		<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script src="js/menu.js"></script>
 
 		<link rel="stylesheet" href="css/index.css"><!--для главной страницы-->
 		<link rel="stylesheet" href="css/jquery.bxslider.css"><!--для главной страницы-->
 		<script src="js/jquery.bxslider.min.js"></script><!--для главной страницы-->
+
 		<script>
 		/*главная страница*/
 		$(document).ready(function(){
 			$('.bxslider').bxSlider();
 		});
-
-		$(document).ready(function(){
-  
-  var $searchTrigger = $('[data-ic-class="search-trigger"]'),
-      $searchInput = $('[data-ic-class="search-input"]'),
-      $searchClear = $('[data-ic-class="search-clear"]');
-  
-  $searchTrigger.click(function(){
-    
-    var $this = $('[data-ic-class="search-trigger"]');
-    $this.addClass('active');
-    $searchInput.focus();
-    
-  });
-  
-  $searchInput.blur(function(){
-    
-    if($searchInput.val().length > 0){
-      
-      return false;
-      
-    } else {
-      
-      $searchTrigger.removeClass('active');
-      
-    }
-    
-  });
-  
-  $searchClear.click(function(){
-    $searchInput.val('');
-  });
-  
-  $searchInput.focus(function(){
-    $searchTrigger.addClass('active');
-  });
-  
-});
 		</script>
 </head>
 <body>

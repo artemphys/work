@@ -1,55 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-		<meta charset="UTF-8">
-		<title></title>
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/menu.css">
-		<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
-		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-		<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+	
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+	<script src="js/menu.js"></script>
 
-		<link rel="stylesheet" href="css/catalog.css"><!--для страницы каталога-->
-
-		<script>
-		$(document).ready(function(){
-  
-  var $searchTrigger = $('[data-ic-class="search-trigger"]'),
-      $searchInput = $('[data-ic-class="search-input"]'),
-      $searchClear = $('[data-ic-class="search-clear"]');
-  
-  $searchTrigger.click(function(){
-    
-    var $this = $('[data-ic-class="search-trigger"]');
-    $this.addClass('active');
-    $searchInput.focus();
-    
-  });
-  
-  $searchInput.blur(function(){
-    
-    if($searchInput.val().length > 0){
-      
-      return false;
-      
-    } else {
-      
-      $searchTrigger.removeClass('active');
-      
-    }
-    
-  });
-  
-  $searchClear.click(function(){
-    $searchInput.val('');
-  });
-  
-  $searchInput.focus(function(){
-    $searchTrigger.addClass('active');
-  });
-  
-});
-
+	<script>
 /****************Maps overlay click problem*********************/
 // $(document).ready(function(){
 // 	$(document).click(function() {
@@ -57,7 +19,7 @@
 // 	})
 // });
 /***************************************************************/
-		</script>
+	</script>
 </head>
 <body>
 <header>
