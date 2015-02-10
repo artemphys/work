@@ -26,6 +26,7 @@
 }
 .homeFirstBlockGoTo p:hover {
     color: red;
+    cursor: pointer;
 }
 .homeFirstBlockBottom{
     background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
@@ -40,11 +41,17 @@
     display: table;
     opacity: 0.7;
 }
+.homeFirstBlockBottom .center {
+    padding: 0 480px 0 480px;
+}
 .homeAboutCompany {
     background-color: rgb(242, 242, 242);
     position: relative;
     width: 100%;
     height: 770px;
+}
+.homeAboutCompany .center {
+    padding: 0 480px 0 480px;
 }
 .homeAboutCompanySlider {
     width: 420px;
@@ -63,7 +70,9 @@
     border: 1px solid black;
     display: table;
 }
-
+.homeCatalogGoTo:hover {
+    cursor: pointer;
+}
 .homeAdvantages {
     width: 100%;
     height: 585px;
@@ -89,4 +98,51 @@
     height: 30px;
     top: -6px;
     position: relative;
+    margin-right: 54px;
+}
+
+.homeFeedback {
+    width: 100%;
+    height: 680px;
+    position: relative;
+    background-color: rgb(242, 242, 242);
+}
+.homeFeedbackForm {
+    position: relative;
+    padding-top: 360px;
+}
+.homeFeedback p {
+    margin-top: 0;
+    padding-top: 80px;
+    display: inline;
+}
+.homeFeedback ul {
+    list-style: none;
+    display: inline;
+}
+.homeFeedback ul li{
+    display: inline;
+    margin-left: 15px;
+
+}
+.homeFeedback ul input{
+    width: 170px;
+    height: 40px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 6px;
+    padding-left: 20px;
+}
+.homeFeedback button {
+    width: 230px;
+    height: 40px;
+    border: 2px solid rgb(72, 74, 80);
+    border-radius: 6px;
+}
+.homeFeedback button:hover {
+    background-color: rgb(72, 74, 80);
+    cursor: pointer;
+    color: rgb(218, 218, 218);
+}
+.homeFeedback ul input:hover {
+    border: 1px solid rgb(238, 49, 36);
 }
