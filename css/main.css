@@ -107,3 +107,40 @@ main .article .map {
 	height: 460px;
 	width: 100%;
 }
+
+
+
+.feedbackForm {
+	margin: 50px auto;
+}
+
+.feedbackForm ul {
+    list-style: none;
+    display: inline;
+}
+.feedbackForm ul li{
+    display: inline;
+    margin-left: 15px;
+
+}
+.feedbackForm ul input{
+    width: 170px;
+    height: 40px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 6px;
+    padding-left: 20px;
+}
+.feedbackForm button {
+    width: 230px;
+    height: 40px;
+    border: 2px solid rgb(72, 74, 80);
+    border-radius: 6px;
+}
+.feedbackForm button:hover {
+    background-color: rgb(72, 74, 80);
+    cursor: pointer;
+    color: rgb(218, 218, 218);
+}
+.feedbackForm ul input:hover {
+    border: 1px solid rgb(238, 49, 36);
+}
