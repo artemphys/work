@@ -141,6 +141,10 @@ footer {
     }
 }
 
+.headerNavigation .center{
+    padding-bottom: 3px;
+}
+
 .headerNavigation li {
     list-style: none;
     display: inline;
@@ -168,11 +172,11 @@ footer {
 
 .language .flag {
     display: inline-block;
-    width: 22px;
+    width: 60px;
     height: 22px;
     margin: 0 0 0 12px;
-    background: transparent url(../images/soc_tw.png) center no-repeat;
-    background-size: 1.2vw;
+    background: transparent url(../images/flag.png) center no-repeat;
+    background-size: 3vw;
 }
 
 
