@@ -1,57 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-		<meta charset="UTF-8">
-		<title></title>
-        <link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/menu.css">
-        <link rel="stylesheet" href="css/about.css"><!--О нас-->
-		<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
-		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-		<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
-        <link rel="stylesheet" href="css/jquery.bxslider.css"><!--О нас/карусель-->
-        <script src="js/jquery.bxslider.min.js"></script><!--О нас/карусель-->
-        <script>
-        $(document).ready(function(){
-            $('.bxslider').bxSlider();
-        });
-        </script>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+	<script src="js/menu.js"></script>
+
+	<link rel="stylesheet" href="css/about.css"><!--О нас-->
+	<link rel="stylesheet" href="css/jquery.bxslider.css"><!--О нас/карусель-->
+	<script src="js/jquery.bxslider.min.js"></script><!--О нас/карусель-->
+	<script>
+	$(document).ready(function(){
+		$('.bxslider').bxSlider();
+	});
+	</script>
 </head>
 <body>
 <header>
-  <div class="headerLogo"><a href="index.html"></a></div>
-	<div class="headerNavigation">
-		<div class="center">
-			<ul>
-				<li><a href="news.html">НОВОСТИ</a></li>
-				<li><a href="catalog.html">КАТАЛОГ</a></li>
-				<li><a href="trends.html">НОВИНКИ</a></li>
-				<li><a href="features.html">ОСОБЕННОСТИ</a></li>
-				<li><a href="about.html">О НАС</a></li>
-				<li><a href="contact.html">КОНТАКТЫ</a></li>
-				<li><a href="where.html">ГДЕ КУПИТЬ</a></li>
-			</ul>
-		</div>
-	</div>
-	<div class="wrapper">
-		<div class="center">
-			<div class="icon-search-container" data-ic-class="search-trigger">
-				<span class="fa fa-search"></span>
-				<input type="text" class="search-input" data-ic-class="search-input" placeholder="Search"/>
-				<span class="fa fa-times-circle" data-ic-class="search-clear"></span>
+	<div class="loader"></div>
+	<div class="menuLeftFloater">
+		<div class="headerLogo"><a href="index.html"></a></div>
+		
+		<div class="headerNavigation">
+			<div class="center">
+				<ul>
+					<li><a href="news.html">НОВОСТИ</a></li>
+					<li><a href="catalog.html">КАТАЛОГ</a></li>
+					<li><a href="trends.html">НОВИНКИ</a></li>
+					<li><a href="features.html">ОСОБЕННОСТИ</a></li>
+					<li><a href="about.html">О НАС</a></li>
+					<li><a href="contact.html">КОНТАКТЫ</a></li>
+					<li><a href="where.html">ГДЕ КУПИТЬ</a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
-	<div class="language">
-		<div class="center">
-			<a href="#" class="flag" target="_blank"></a>
+	<div class="menuRightFloater">
+		<div class="icon-search-wrapper">
+			<div class="center">
+				<div class="icon-search-container" data-ic-class="search-trigger">
+					<span class="fa fa-search"></span>
+					<input type="text" class="search-input" data-ic-class="search-input" placeholder="Search"/>
+					<span class="fa fa-times-circle" data-ic-class="search-clear"></span>
+				</div>
+			</div>
 		</div>
-	</div>
-	<div class="socialMenu">
-		<div class="center">
-			<a href="#" class="twitter" target="_blank"></a>
-			<a href="#" class="facebook" target="_blank"></a>
-			<a href="#" class="vkontakte" target="_blank"></a>
+		<div class="language">
+			<div class="center">
+				<a href="#" class="flag" target="_blank"></a>
+			</div>
+		</div>
+		<div class="socialMenu">
+			<div class="center">
+				<a href="#" class="twitter" target="_blank"></a>
+				<a href="#" class="facebook" target="_blank"></a>
+				<a href="#" class="vkontakte" target="_blank"></a>
+			</div>
 		</div>
 	</div>
 </header>
@@ -82,17 +91,21 @@
            </div>
        </main>
 <footer>
-	<div class="footerLogo"><a href="index.html"></a></div>
-	<div class="language">
-		<div class="center">
-      <a href="#" class="flag" target="_blank"></a>
-		</div>
+	<div class="menuLeftFloater">
+		<div class="footerLogo"><a href="index.html"></a></div>
 	</div>
-	<div class="socialMenu">
-		<div class="center">
-			<a href="#" class="twitter" target="_blank"></a>
-			<a href="#" class="facebook" target="_blank"></a>
-			<a href="#" class="vkontakte" target="_blank"></a>
+	<div class="menuRightFloater">
+		<div class="language">
+			<div class="center">
+				<a href="#" class="flag" target="_blank"></a>
+			</div>
+		</div>
+		<div class="socialMenu">
+			<div class="center">
+				<a href="#" class="twitter" target="_blank"></a>
+				<a href="#" class="facebook" target="_blank"></a>
+				<a href="#" class="vkontakte" target="_blank"></a>
+			</div>
 		</div>
 	</div>
 </footer>
