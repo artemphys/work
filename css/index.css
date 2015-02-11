@@ -1,108 +1,108 @@
 .homeFirstBlock {
-    background: url("../images/homeFirstBlockBG.gif") no-repeat center center;
-    background-size:cover;
-    /*height: 480px;*/
-    height: 47vw;
+	background: url("../images/homeFirstBlockBG.gif") no-repeat center center;
+	background-size:cover;
+	/*height: 480px;*/
+	height: 47vw;
 	width: 100%;
-    position: relative;
+	position: relative;
 }
-.homeFirstBlockPlayButton{
+.homeFirstBlockPlayButton {
 
 }
 .homeFirstBlockWrapper {
-    position: absolute;
-    width: 100%;
-    height: 140px;
-    bottom: 0px;
+	position: absolute;
+	width: 100%;
+	height: 140px;
+	bottom: 0px;
 }
 .homeFirstBlockGoTo{
-    float: right;
-    display: table;
-    width: 415px;
-    height: 67px;
-    background-color: white;
-    text-align: center;
-    margin-top: -67px;
+	float: right;
+	display: table;
+	width: 415px;
+	height: 67px;
+	background-color: white;
+	text-align: center;
+	margin-top: -67px;
 }
 .homeFirstBlockGoTo p:hover {
-    color: red;
-    cursor: pointer;
+	color: red;
+	cursor: pointer;
 }
-.homeFirstBlockBottom{
-    background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
-    background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
-    background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
-    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), inset 0px 0px 13px 0px rgba(0, 0, 0, 0.44);
-    width: 100%;
-    height: 140px;
-    z-index: 196;
-    position: relative;
-    margin-bottom: 0;
-    display: table;
-    opacity: 0.7;
+.homeFirstBlockBottom {
+	background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), inset 0px 0px 13px 0px rgba(0, 0, 0, 0.44);
+	width: 100%;
+	height: 140px;
+	z-index: 196;
+	position: relative;
+	margin-bottom: 0;
+	display: table;
+	opacity: 0.7;
 }
 .homeFirstBlockBottom .center {
-    padding: 0 480px 0 480px;
+	padding: 0 480px 0 480px;
 }
 .homeAboutCompany {
-    position: relative;
-    width: 100%;
-    height: 770px;
+	position: relative;
+	width: 100%;
+	height: 770px;
 }
 .homeAboutCompany .center {
-    padding: 0 480px 0 480px;
+	padding: 0 480px 0 480px;
 }
 .homeAboutCompanySlider {
-    width: 420px;
-    height: 264px;
+	width: 420px;
+	height: 264px;
 	margin: 0 auto;
 }
 .homeCatalog {
-    position: relative;
-    width: 100%;
-    height: 770px;
+	position: relative;
+	width: 100%;
+	height: 770px;
 }
 .homeCatalogGoTo {
-    margin: 0 auto;
-    width: 290px;
-    height: 60px;
-    border: 1px solid black;
-    display: table;
+	margin: 0 auto;
+	width: 290px;
+	height: 60px;
+	border: 1px solid black;
+	display: table;
 }
 .homeCatalogGoTo:hover {
-    cursor: pointer;
+	cursor: pointer;
 }
 .homeAdvantages {
-    width: 100%;
-    height: 585px;
-    background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
-    background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
-    background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
-    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.047), inset 0px 0px 13px 0px rgba(0, 0, 0, 0.173);
+	width: 100%;
+	height: 585px;
+	background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.047), inset 0px 0px 13px 0px rgba(0, 0, 0, 0.173);
 }
 .homeAdvantages p {
-    margin-top: 0;
-    padding-top: 80px;
+	margin-top: 0;
+	padding-top: 80px;
 }
 .homeAdvantagesMenu h2 {
-    display: inline;
-    padding: 50px;
+	display: inline;
+	padding: 50px;
 }
 .article .homeAdvantagesMenu hr {
-    width: 546px;
-    margin: 10px auto;
+	width: 546px;
+	margin: 10px auto;
 }
 
 .homeAdvantagesMenuButtons {
-    height: 30px;
-    top: -6px;
-    position: relative;
-    margin-right: 54px;
+	height: 30px;
+	top: -6px;
+	position: relative;
+	margin-right: 54px;
 }
 
 .homeFeedback {
-    width: 100%;
-    height: 680px;
-    position: relative;
-    padding-top: 300px;
+	width: 100%;
+	height: 680px;
+	position: relative;
+	padding-top: 300px;
 }

@@ -1,41 +1,41 @@
 .featuresFirstBlock {
-    height: 340px;
-    /*height: 47vw;*/
-    background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(243,243,243) 0%, rgb(229,226,216) 100%);
-    background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(243,243,243) 0%, rgb(229,226,216) 100%);
-    background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(243,243,243) 0%, rgb(229,226,216) 100%);
-    position: relative;
-    z-index:100;
+	height: 340px;
+	/*height: 47vw;*/
+	background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(243,243,243) 0%, rgb(229,226,216) 100%);
+	background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(243,243,243) 0%, rgb(229,226,216) 100%);
+	background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(243,243,243) 0%, rgb(229,226,216) 100%);
+	position: relative;
+	z-index:100;
 }
 .firstBlockBackground {
-    position: relative;
-    height: 340px;
-    background: url("../images/featuresFirstBlock.gif") no-repeat center center;
+	position: relative;
+	height: 340px;
+	background: url("../images/featuresFirstBlock.gif") no-repeat center center;
 }
 .featuresProduction {
-    height: 650px;
+	height: 650px;
 }
 .featuresProductionImages {
-    padding-top: 60px;
+	padding-top: 60px;
 }
 .featuresProductionImages li{
-    list-style: none;
-    display: inline;
-    padding-left: 16px;
+	list-style: none;
+	display: inline;
+	padding-left: 16px;
 }
 .featuresQuality {
-    height: 856px;
-    background-color: rgb(235, 235, 235);
+	height: 856px;
+	background-color: rgb(235, 235, 235);
 }
 .featuresDesign {
-    height: 856px;
-    background-color: rgb(246, 246, 246);
+	height: 856px;
+	background-color: rgb(246, 246, 246);
 }
 .featuresDesigneImage {
-    margin-top: 50px;
-    height: 336px;
-    background: url("../images/featuresDesigne.gif")no-repeat center center;
+	margin-top: 50px;
+	height: 336px;
+	background: url("../images/featuresDesigne.gif")no-repeat center center;
 }
 .featuresMaterials {
-    height: 780px;
+	height: 780px;
 }
