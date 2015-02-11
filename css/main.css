@@ -186,33 +186,39 @@ main .article .map {
 /****************************************/
 
 .contactBlock {
+    position: relative;
 	margin: 60px auto;
 }
 .contactBlock  ul{
 	margin-left:50px;
 }
 .contactBlock  li{
-	position: relative;
+    position: static;
 	list-style: none;
 	display: inline-block;
 	vertical-align: middle;
 	margin: 0 50px;
 	text-align: left;
 	font-size: 14px;
+    height: 100%;
 }
 .contactBlock  li:before{
+	position: absolute;
+    top: 0; bottom: 0;
     content: " ";
-	position:absolute;
 	display: block;
 	width: 50px;
-    height:100%;
-	margin-left:-50px;
+    height: 100%;
+	margin-left: -50px;
 }
 .contactBlock  li.contactPhone:before{
-	background: transparent url(../images/flag.png) center no-repeat;
+	background: transparent url(../images/cont_phone.png) center no-repeat;
 }
 .contactBlock  li.contactMail:before{
-	background: transparent url(../images/flag.png) center no-repeat;
+    background: transparent url(../images/cont_mail.png) center no-repeat;
+}
+.contactBlock  li.contactWeb:before{
+    background: transparent url(../images/cont_web.png) center no-repeat;
 }
 
 /****************************************/
