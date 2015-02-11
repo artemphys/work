@@ -1,0 +1,38 @@
+.article img {
+    display: inline-block;
+    height: 220px;
+    max-height: 220px;
+    max-width: 310px;
+    margin-right: 150px;
+}
+
+.article .productInfo {
+    width: 455px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+.article .productInfo h2 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #000000;
+    font-family: "Myriad Pro";
+}
+
+.article .productInfo p {
+    font-size: 12px;
+    color: #888787;
+}
+
+.article .productInfo a {
+    display: inline-block;
+    margin-top: 35px;
+    font-size: 12px;
+    font-family: "OpenSansItalic";
+    color: #010101;
+}
+
+.article .productInfo a:hover {
+    color: #ee3124;
+}

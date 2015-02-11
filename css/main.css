@@ -28,6 +28,16 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: "OpenSansItalic";
+    src: url("../fonts/OpenSansItalic/OpenSansItalic.eot");
+    src: url("../fonts/OpenSansItalic/OpenSansItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansItalic/OpenSansItalic.woff") format("woff"),
+    url("../fonts/OpenSansItalic/OpenSansItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 * {
 	box-sizing: border-box;
     margin: 0;
@@ -60,6 +70,14 @@ main {
     flex: 1;
 }
 
+main hr {
+    height: 1px;
+    width: 1000px;
+    margin: 50px auto;
+    border: none;
+    background-color: #c2c2c2;
+}
+
 main .article {
 	width: 100%;
 	margin: 0 auto;
@@ -81,8 +99,11 @@ main .article.artDark, main.artDark {
 }
 
 main .article hr {
+    height: 1px;
 	width: 56px;
 	margin: 20px auto;
+    border: none;
+    background-color: #464646;
 }
 
 main .article .vr {
