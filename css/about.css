@@ -1,0 +1,17 @@
+.aboutFirstBlock {
+    height: 718px;
+}
+.aboutHistory {
+    width: 420px;
+    height: 264px;
+    margin: 0 auto;
+}
+.aboutHistoryImages li {
+    list-style: none;
+    display: inline;
+    padding-left: 16px;
+}
+.aboutPhilosophy {
+    height: 420px;
+    background-color: rgb(235, 235, 235);
+}
