@@ -159,3 +159,33 @@ main .article .map {
 .feedbackForm ul input:hover {
     border: 1px solid rgb(238, 49, 36);
 }
+
+.contactBlock {
+	margin: 60px auto;
+}
+.contactBlock  ul{
+	margin-left:50px;
+}
+.contactBlock  li{
+	position: relative;
+	list-style: none;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 50px;
+	text-align: left;
+	font-size: 14px;
+}
+.contactBlock  li:before{
+    content: " ";
+	position:absolute;
+	display: block;
+	width: 50px;
+    height:100%;
+	margin-left:-50px;
+}
+.contactBlock  li.contactPhone:before{
+	background: transparent url(../images/flag.png) center no-repeat;
+}
+.contactBlock  li.contactMail:before{
+	background: transparent url(../images/flag.png) center no-repeat;
+}
