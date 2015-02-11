@@ -78,16 +78,14 @@ footer {
 .headerNavigation {
     display: inline-table;
     height: 100%;
-	margin-top: 0px;
 	position: relative;
-
 }
 
 @media (min-width: 1007px) {
 
     .headerNavigation li {
         font-size: 0.8vw;
-        margin-right: 1.5vw;
+        margin-left: 1.5vw;
     }
 
     .socialMenu {
@@ -95,7 +93,6 @@ footer {
     }
 
     .wrapper {
-        right: 15vw;
         width: 11vw;
     }
     .icon-search-container {
@@ -119,7 +116,7 @@ footer {
 
     .headerNavigation li {
         font-size: 8px;
-        margin-right: 15px;
+        margin-left: 15px;
     }
 
     .socialMenu {
@@ -127,8 +124,7 @@ footer {
     }
 
     .wrapper {
-        right: 154px;
-        width: 154px;
+		width: 112px;
     }
     .icon-search-container {
         height: 21px;
@@ -171,13 +167,13 @@ footer {
 .language {
     display: inline-table;
     height: 100%;
+	margin: 0 3px;
 }
 
 .language .flag {
     display: inline-block;
     width: 60px;
     height: 22px;
-    margin: 0 0 0 12px;
     background: transparent url(../images/flag.png) center no-repeat;
     background-size: 3vw;
 }
