@@ -146,6 +146,8 @@ main .article .map {
 
 
 
+/****************************************/
+
 .feedbackForm {
 	margin: 50px auto;
 }
@@ -181,6 +183,8 @@ main .article .map {
     border: 1px solid rgb(238, 49, 36);
 }
 
+/****************************************/
+
 .contactBlock {
 	margin: 60px auto;
 }
@@ -209,4 +213,40 @@ main .article .map {
 }
 .contactBlock  li.contactMail:before{
 	background: transparent url(../images/flag.png) center no-repeat;
+}
+
+/****************************************/
+.pagesNav {
+    margin: 50px auto;
+}
+
+.pagesNav a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-family: "OpenSansSemibold";
+    font-size: 13px;
+    color: #aab2bd;
+    border-radius: 100px;
+    padding-right: 1px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.pagesNav a.pageNavBack, .pagesNav a.pageNavForv {
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    color: #ffffff;
+    background-color: #9f9f9f;
+}
+
+.pagesNav a.pageNavCurrent {
+    color: #ffffff;
+    background-color: #9f9f9f;
+}
+
+.pagesNav a:hover {
+    background-color: 
 }
