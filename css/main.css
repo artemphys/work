@@ -70,13 +70,13 @@ http://stackoverflow.com/questions/1762539/margin-on-child-element-moves-parent-
 	overflow: hidden;
 }
 
-main .article.artLight{
+main .article.artLight, main.artLight {
     background-color: #fdfdfd;
 }
-main .article.artGray{
+main .article.artGray, main.artGray {
     background-color: #f6f6f6;
 }
-main .article.artDark{
+main .article.artDark, main.artDark {
     background-color: #ebebeb;
 }
 
