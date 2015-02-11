@@ -20,6 +20,19 @@ footer {
     max-height: 88px;
 }
 
+.menuLeftFloater {
+    float: left;
+}
+
+.menuRightFloater {
+	float: right;
+}
+
+.menuLeftFloater, .menuRightFloater {
+	display: flex;
+	height: 100%;
+}
+
 .headerLogo {
     background-color: #fcfcfc;
     background-image: url(../images/logo_h_bl.png);
@@ -36,13 +49,13 @@ footer {
 }
 
 .headerLogo, .footerLogo {
+	display: inline-block;
     width: 25vw;
     min-width: 215px;
     max-width: 470px;
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    float: left;
 }
 
 .headerLogo a, .footerLogo a {
@@ -62,18 +75,15 @@ footer {
 }
 
 
-
-
 .headerNavigation {
     display: inline-table;
     height: 100%;
-	position: absolute;
-	float: left;
-	left: 27%;
+	margin-top: 0px;
+	position: relative;
+
 }
 
 @media (min-width: 1007px) {
-
 
     .headerNavigation li {
         font-size: 0.8vw;
@@ -81,12 +91,12 @@ footer {
     }
 
     .socialMenu {
-        right: 3.3vw;
+        margin-right: 3.3vw;
     }
 
     .wrapper {
         right: 15vw;
-        width: 15vw;
+        width: 11vw;
     }
     .icon-search-container {
         height: 2vw;
@@ -113,7 +123,7 @@ footer {
     }
 
     .socialMenu {
-        right: 35px;
+        margin-right: 35px;
     }
 
     .wrapper {
@@ -159,11 +169,8 @@ footer {
 }
 
 .language {
-    position: absolute;
     display: inline-table;
     height: 100%;
-    float: right;
-    right: 14%;
 }
 
 .language .flag {
@@ -177,10 +184,8 @@ footer {
 
 
 .socialMenu {
-    position: absolute;
     display: inline-table;
     height: 100%;
-    float: right;
 }
 
 .socialMenu a {
@@ -201,10 +206,8 @@ footer {
 
 .wrapper {
     text-align: center;
-    position: absolute;
     display: inline-table;
     height: 100%;
-    float: right;
 }
 .icon-search-container {
     display: inline-block;
