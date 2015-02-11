@@ -92,7 +92,7 @@ footer {
         margin-right: 3.3vw;
     }
 
-    .wrapper {
+    .icon-search-wrapper {
         width: 11vw;
     }
     .icon-search-container {
@@ -123,7 +123,7 @@ footer {
         margin-right: 35px;
     }
 
-    .wrapper {
+    .icon-search-wrapper {
 		width: 112px;
     }
     .icon-search-container {
@@ -200,7 +200,7 @@ footer {
 
 /*search container*/
 
-.wrapper {
+.icon-search-wrapper {
     text-align: center;
     display: inline-table;
     height: 100%;
