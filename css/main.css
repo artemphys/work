@@ -143,7 +143,7 @@ main .article .map {
     height: 40px;
     border: 1px solid rgb(218, 218, 218);
     border-radius: 6px;
-    padding-left: 20px;
+	padding: 0 20px;
 }
 .feedbackForm button {
     width: 230px;
