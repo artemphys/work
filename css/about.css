@@ -3,8 +3,11 @@
 }
 .aboutHistory {
     width: 420px;
-    height: 264px;
+    height: 164px;
     margin: 0 auto;
+}
+.aboutHistoryImages {
+    padding-top: 80px;
 }
 .aboutHistoryImages li {
     list-style: none;

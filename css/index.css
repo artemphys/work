@@ -50,7 +50,7 @@
 }
 .homeAboutCompanySlider {
     width: 420px;
-    height: 264px;
+    height: 270px;
 	margin: 0 auto;
 }
 .homeCatalog {
@@ -67,6 +67,10 @@
 }
 .homeCatalogGoTo:hover {
     cursor: pointer;
+}
+.mCustomScrollbar {
+    width: 1000px;
+    height: 160px;
 }
 .homeAdvantages {
     width: 100%;
