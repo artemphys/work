@@ -68,10 +68,6 @@
 .homeCatalogGoTo:hover {
     cursor: pointer;
 }
-.mCustomScrollbar {
-    width: 1000px;
-    height: 160px;
-}
 .homeAdvantages {
     width: 100%;
     height: 585px;
@@ -79,6 +75,8 @@
     background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.047), inset 0px 0px 13px 0px rgba(0, 0, 0, 0.173);
+    position: relative;
+    text-align: center;
 }
 .homeAdvantages p {
     margin-top: 0;
@@ -99,6 +97,15 @@
     position: relative;
     margin-right: 54px;
 }
+.homeAdvantagesSlider {
+    width: 830px;
+    height: 512px;
+    position: absolute;
+    margin: auto;
+    top: 590px; left: 0; bottom: 0; right: 0;
+    z-index: 9999;
+}
+
 
 .homeFeedback {
     width: 100%;

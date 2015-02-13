@@ -9,6 +9,14 @@
 		<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
 		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 		<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/jquery.bxslider.css"><!--Особенности-->
+    <script src="js/jquery.bxslider.min.js"></script><!--Особенности-->
+    <script>
+        /*главная страница*/
+        $(document).ready(function(){
+            $('.bxslider').bxSlider();
+        });
+        </script>
 </head>
 <body>
 <header>
@@ -70,6 +78,15 @@
                <hr>
                <p>Продукция и производственный процесс торговой марки OMOIKIRI соответствует европейским, японским и</p>
                <p>российским стандартам менеджмента качества (ISO 9001, TUV CERT, CE, KS, JIS).</p>
+               <div class="featuresQualitySlider">
+                   <ul class="bxslider">
+                       <li><img src="images/testSlide1.gif"></li>
+                       <li><img src="images/testSlide1.gif"></li>
+                       <li><img src="images/testSlide1.gif"></li>
+                       <li><img src="images/testSlide1.gif"></li>
+                       <li><img src="images/testSlide1.gif"></li>
+                   </ul>
+               </div>
            </div>
            <div class="article featuresDesign">
                <h1>Дизайн OMOIKIRI</h1>
@@ -88,7 +105,15 @@
                <hr>
                <p>Продукция OMOIKIRI изготавливается из гранита, нержавеющей стали, меди и латуни. Все материалы проходят</p>
                <p>термическую обработку, устраняющую вредные для здоровья человека оксиды тяжелых металлов.</p>
-               <div></div>
+               <div class="featuresDesignslider">
+                   <ul class="bxslider">
+                       <li><img src="images/testSlide1.gif"></li>
+                       <li><img src="images/testSlide1.gif"></li>
+                       <li><img src="images/testSlide1.gif"></li>
+                       <li><img src="images/testSlide1.gif"></li>
+                       <li><img src="images/testSlide1.gif"></li>
+                   </ul>
+               </div>
            </div>
        </main>
 <footer>

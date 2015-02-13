@@ -100,19 +100,26 @@
 .bx-wrapper .bx-pager.bx-default-pager a.active {
     background: #000;
 }
-
+.homeAdvantagesSlider .bx-wrapper .bx-pager, .featuresQualitySlider .bx-wrapper .bx-pager, .featuresDesignslider .bx-wrapper .bx-pager {display: none;}/*убрать пагинацию*/
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
-.bx-wrapper .bx-prev {
+.homeAboutCompanySlider .bx-wrapper .bx-prev, .aboutHistory .bx-wrapper .bx-prev {
     left: -60px;
     background: url(../images/homeAboutCompanyPrev.png) no-repeat center;
 }
 
-.bx-wrapper .bx-next {
+.homeAboutCompanySlider .bx-wrapper .bx-next, .aboutHistory .bx-wrapper .bx-next {
     right: -50px;
     background: url(../images/homeAboutCompanyNext.png) no-repeat center;
 }
-
+.homeAdvantagesSlider .bx-wrapper .bx-prev,.featuresQualitySlider .bx-wrapper .bx-prev, .featuresDesignslider .bx-wrapper .bx-prev {
+    left: -50px;
+    background: url(../images/homeAdvantagesPrev.png) no-repeat center;
+}
+.homeAdvantagesSlider .bx-wrapper .bx-next,.featuresQualitySlider .bx-wrapper .bx-next, .featuresDesignslider .bx-wrapper .bx-next{
+    right: -40px;
+    background: url(../images/homeAdvantagesNext.png) no-repeat center;
+}
 .bx-wrapper .bx-prev:hover {
     opacity: 0.5;
 }
@@ -190,7 +197,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    background: #666\9;
+    background: #666;
     background: rgba(80, 80, 80, 0.75);
     width: 100%;
 }

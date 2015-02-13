@@ -27,6 +27,11 @@
     height: 856px;
     background-color: rgb(235, 235, 235);
 }
+.featuresQualitySlider {
+    width: 830px;
+    height: 512px;
+    margin: 50px auto;
+}
 .featuresDesign {
     height: 856px;
     background-color: rgb(246, 246, 246);
@@ -38,4 +43,9 @@
 }
 .featuresMaterials {
     height: 780px;
+}
+.featuresDesignslider {
+    width: 830px;
+    height: 512px;
+    margin: 50px auto;
 }
