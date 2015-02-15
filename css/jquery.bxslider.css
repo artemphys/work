@@ -101,6 +101,9 @@
     background: #000;
 }
 .homeAdvantagesSlider .bx-wrapper .bx-pager, .featuresQualitySlider .bx-wrapper .bx-pager, .featuresDesignslider .bx-wrapper .bx-pager {display: none;}/*убрать пагинацию*/
+.newsFirstBlockSlider .bx-wrapper .bx-pager {
+    margin-bottom: 50px;
+}
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .homeAboutCompanySlider .bx-wrapper .bx-prev, .aboutHistory .bx-wrapper .bx-prev {
