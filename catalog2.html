@@ -6,14 +6,20 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/menu.css">
 	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
-	
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 	<script src="js/menu.js"></script>
-
+	<script src="js/main.js"></script>
 	<link rel="stylesheet" href="css/catalog2.css"><!--для страницы каталога 2-->
-
 	<script>
+		$(function() {
+			$( "#slider" ).slider({
+				min: 30,
+				max: 90,
+				step: 10,
+				value: 10
+			});
+		});
 	</script>
 </head>
 <body>
@@ -62,7 +68,48 @@
 </header>
 
 <main class="artGray">
-
+	<div class="article openBlock">
+		<div class="openBlockContent">
+			<p>Все модели</p>
+			<div class="catalogFilter">
+				<h3>КОЛЛЕКЦИИ</h3>
+				<ul>
+						<li>NEW DAY</li>
+						<li>TRADITIONS</li>
+						<li>SOLIDITY</li>
+						<li>NATURE</li>
+						<li>ANTIQUE TIMES</li>
+					</ul>
+				<div class="vr"></div>
+				</div>
+			<div class="catalogFilter">
+				<h3>МАТЕРИАЛ</h3>
+				<ul>
+						<li>НЕРЖАВЕЮЩАЯ СТАЛЬ</li>
+						<li>НЕРЖАВЕЮЩАЯ СТАЛЬ, PVD ПОКРЫТИЕ</li>
+						<li>ИСКУССТВЕННЫЙ ГРАНИТ TETOGRANT</li>
+						<li>НАТУРАЛЬНЫЙ ГРАНИТ</li>
+						<li>НАТУРАЛЬНАЯ МЕДЬ</li>
+					</ul>
+				<div class="vr"></div>
+			</div>
+			<div class="catalogFilter">
+				<h3>МОНТАЖ</h3>
+				<ul>
+						<li>ПОДСТОЛЬНЫЙ МОНТАЖ</li>
+						<li>ВРЕЗНОЙ МОНТАЖ</li>
+						<li>ВРОВЕНЬ СО СТОЛЕШНИЦЕЙ</li>
+					</ul>
+				<div class="vr"></div>
+			</div>
+			<div class="catalogFilter">
+				<h3>МОНТАЖНАЯ ТУМБА</h3>
+				<div id="slider"></div>
+			</div>
+		</div>
+		<div class="openBlockButton">
+		</div>
+	</div>
 	<div class="pagesNav">
 		<a href="#" class="pageNavBack"><</a>
 		<a href="#">1</a>

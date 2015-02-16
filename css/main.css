@@ -256,3 +256,38 @@ main .article .map {
 .pagesNav a:hover {
 	background-color: 
 }
+/****************************************/
+.openBlock {
+	background-color: #fefefe;
+}
+.openBlock .openBlockContent {
+	transition-duration: 1s;
+	height: 0px;
+	overflow: hidden;
+}
+.openBlock .openBlockButton {
+	height: 20px;
+	margin: 0px auto;
+	border: 1px solid rgb(238, 238, 238);
+
+	background: url(../images/BlockButtonOpen.gif) center no-repeat;
+	background-color: rgb(238, 238, 238);
+	cursor: pointer;
+}
+
+.openBlock.opened .openBlockButton {
+	transform: scaleY(-1);
+}
+.openBlock.opened .openBlockContent {
+	height: auto !important;
+}
+
+.openBlock .openBlockButton img {
+	margin-bottom: 4px;
+	width: 10px;
+	height: 5px;
+}
+.openBlock .openBlockButton:hover {
+	border-color: rgb(238, 238, 238);
+	background-color: rgb(238, 49, 36);
+}

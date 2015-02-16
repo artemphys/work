@@ -36,4 +36,42 @@
 .article .productInfo a:hover {
     color: #ee3124;
 }
-
+.openBlock .openBlockContent {
+    background-color: rgb(235, 235, 235);
+}
+.openBlock .catalogFilter {
+    float:left;
+    margin-left: 50px;
+}
+.openBlock .catalogFilter li, .openBlock .catalogFilter h3 {
+    list-style: none;
+    text-align: left;
+    padding-top: 2px;
+}
+.openBlock .catalogFilter li {
+    font-size: 15.414px;
+    color: rgb(82, 82, 82);
+}
+.openBlock .catalogFilter h3 {
+    font-size: 16.815px;
+    color: rgb(82, 82, 82);
+}
+.openBlock p {
+    width: 100px;
+    text-align: left;
+    margin: 20px auto 20px 50px;
+    font-size: 12.002px;
+    color: rgb(82, 82, 82);
+}
+#slider {
+    margin: 30px auto auto 40px;
+}
+.ui-slider{
+    background: red;
+}
+.ui-widget-content {
+    border: none;
+    background: rgb(225, 225, 225);
+    height: 3px;
+    width: 300px;
+}
