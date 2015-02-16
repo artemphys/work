@@ -19,11 +19,11 @@
 }
 
 @font-face {
-	font-family: "OpenSansSemibold";
-	src: url("../fonts/OpenSansSemibold/OpenSansSemibold.eot");
-	src: url("../fonts/OpenSansSemibold/OpenSansSemibold.eot?#iefix")format("embedded-opentype"),
-	url("../fonts/OpenSansSemibold/OpenSansSemibold.woff") format("woff"),
-	url("../fonts/OpenSansSemibold/OpenSansSemibold.ttf") format("truetype");
+	font-family: "OpenSansSemiBold";
+	src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+	src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"),
+	url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
@@ -231,7 +231,7 @@ main .article .map {
 	width: 20px;
 	height: 20px;
 	line-height: 20px;
-	font-family: "OpenSansSemibold";
+	font-family: "OpenSansSemiBold";
 	font-size: 13px;
 	color: #aab2bd;
 	border-radius: 100px;
