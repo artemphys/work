@@ -187,7 +187,7 @@ main .article .map {
 
 .contactBlock {
 	position: relative;
-	margin: 60px auto;
+	margin: 40px auto;
 }
 .contactBlock ul{
 	margin-left:50px;
@@ -197,10 +197,11 @@ main .article .map {
 	list-style: none;
 	display: inline-block;
 	vertical-align: middle;
-	margin: 0 50px;
+	margin: 0 30px;
 	text-align: left;
 	font-size: 14px;
 	height: 100%;
+	padding: 20px;
 }
 .contactBlock li:before{
 	position: absolute;
