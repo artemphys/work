@@ -197,11 +197,11 @@ main .article .map {
 	list-style: none;
 	display: inline-block;
 	vertical-align: middle;
-	margin: 0 30px;
+	margin: 0 50px;
 	text-align: left;
 	font-size: 14px;
 	height: 100%;
-	padding: 20px;
+	padding: 20px 0;
 }
 .contactBlock li:before{
 	position: absolute;
