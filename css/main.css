@@ -88,10 +88,10 @@ http://stackoverflow.com/questions/1762539/margin-on-child-element-moves-parent-
 	overflow: hidden;
 }
 
-main .article.artLight, main.artLight {
+main .article.artLight, main.artLight, main .article.views-row-even {
 	background-color: #fdfdfd;
 }
-main .article.artGray, main.artGray {
+main .article.artGray, main.artGray, main .article.views-row-odd {
 	background-color: #f6f6f6;
 }
 main .article.artDark, main.artDark {
