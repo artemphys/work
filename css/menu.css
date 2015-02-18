@@ -157,7 +157,7 @@ footer {
 	color: rgb(173, 173, 173);
 }
 
-.headerNavigation li a:hover {
+.headerNavigation li a:hover, .headerNavigation li a.active {
 	color: rgb(252, 252, 252);
 	font-weight: bold;
 }
