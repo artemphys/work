@@ -223,39 +223,68 @@ main .article .map {
 }
 
 /****************************************/
-.pagesNav {
+.item-list ul.pager li {
+	margin: 0;
+	padding: 0;
+}
+
+/**/
+.pagesNav, 
+.item-list ul.pager {
 	margin: 60px auto;
 }
 
-.pagesNav a {
-	display: inline-block;
+.pagesNav a,
+.item-list ul.pager li a {
+	color: #aab2bd;
 	width: 20px;
 	height: 20px;
 	line-height: 20px;
-	font-family: "OpenSansSemiBold";
-	font-size: 13px;
-	color: #aab2bd;
+	display: inline-block;
 	border-radius: 100px;
-	padding-right: 1px;
+}
+
+.pagesNav a,
+.item-list ul.pager li {
+	width: 20px;
+	display: inline-block;
+	border-radius: 100px;
+	font-size: 13px;
+	font-family: "OpenSansSemiBold";
 	margin: 0 5px;
 	vertical-align: middle;
 }
 
-.pagesNav a.pageNavBack, .pagesNav a.pageNavForv {
+.pagesNav a.pageNavBack, .pagesNav a.pageNavForv,
+.item-list ul.pager li.pager-previous a, .item-list ul.pager li.pager-next a,
+.item-list ul.pager li.pager-previous, .item-list ul.pager li.pager-next
+ {
 	width: 50px;
 	height: 25px;
+}
+
+.pagesNav a.pageNavBack, .pagesNav a.pageNavForv,
+.item-list ul.pager li.pager-previous a, .item-list ul.pager li.pager-next a
+{
 	line-height: 25px;
 	color: #ffffff;
 	background-color: #7b818c;
 }
 
-.pagesNav a.pageNavCurrent {
+.pagesNav a.pageNavCurrent,
+.item-list ul.pager li.pager-current
+{
 	color: #ffffff;
 	background-color: #9f9f9f;
 }
 
-.pagesNav a:hover {
-	background-color: 
+.pagesNav a:hover 
+{
+	/*background-color: */
+}
+
+.item-list ul.pager li.pager-first, .item-list ul.pager li.pager-last {
+	display: none;
 }
 /****************************************/
 .openBlock {
