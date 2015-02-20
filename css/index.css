@@ -67,6 +67,10 @@
 .homeCatalogGoTo:hover {
 	cursor: pointer;
 }
+.homeCatalogSlider {
+	width: 100%;
+	margin: 200px auto;
+}
 .homeAdvantages {
 	width: 100%;
 	height: 585px;

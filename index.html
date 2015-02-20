@@ -13,6 +13,18 @@
 	<link rel="stylesheet" href="css/index.css"><!--для главной страницы-->
 	<link rel="stylesheet" href="css/jquery.bxslider.css"><!--для главной страницы-->
 	<script src="js/jquery.bxslider.min.js"></script><!--для главной страницы-->
+	<link rel="stylesheet" href="css/indexCatalogSlider.css"><!--для главной страницы/Каталог-->
+	<script src="js/indexCatalogSlider.js"></script><!--для главной страницы/Каталог-->
+	<script type="text/javascript">/*для главной страницы/Каталог*/
+		jQuery(document).ready(function(){
+			jQuery('#scrollbarX').tinyscrollbar({
+				axis: 'x',
+				scroll: 'true',
+				size: 13400,
+				wheel:360
+			});
+		});
+	</script>
 
 	<script>
 	/*главная страница*/
@@ -107,6 +119,45 @@
 				<p class="center">Смотреть весь каталог</p>
 			</a>
 			<div class="homeCatalogSlider">
+				<div id="scrollbarX">
+					<div class="viewport">
+						<div class="overview">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+							<img src="images/testSlide.gif">
+						</div>
+					</div>
+					<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+				</div>
+
 			</div>
 		</div>
 		<div class="article homeAdvantages">
