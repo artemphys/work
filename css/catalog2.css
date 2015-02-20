@@ -1,4 +1,4 @@
-.article img {
+.article.catalog img {
     display: inline-block;
     height: 220px;
     max-height: 220px;
@@ -36,6 +36,8 @@
 .article .productInfo a:hover {
     color: #ee3124;
 }
+
+
 .openBlock .openBlockContent {
     background-color: rgb(235, 235, 235);
 }
@@ -53,40 +55,20 @@
     color: rgb(82, 82, 82);
 }
 .openBlock .catalogFilter h3 {
-    padding-bottom: 30px;
     font-size: 16.815px;
     color: rgb(82, 82, 82);
 }
-.openBlock .catalogFilter li:hover {
-    color: black;
-    cursor: pointer;
-}
-.openBlock a {
+.openBlock p {
     width: 100px;
-    height: 14px;
     text-align: left;
     margin: 20px auto 20px 50px;
     font-size: 12.002px;
     color: rgb(82, 82, 82);
-    display: block;
-}
-.openBlock a:before {
-    content: url(catalog2FilterBack.png);
-    height: 14px;
-    width: 14px;
-    display: block;
-    text-align: left;
-}
-
-.openBlock img {
-    height: 14px;
-    width: 14px;
-    display: block;
-    text-align: left;
 }
 #slider {
     margin: 30px auto auto 40px;
 }
+
 .ui-state-default, .ui-widget-content .ui-state-default{
     height: 20px;
     width: 20px;

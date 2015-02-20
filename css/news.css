@@ -1,9 +1,6 @@
 .newsFirstBlock {
 	background-color: rgb(232, 232, 232);
 }
-.newsFirstBlockSlider {
-
-}
 .newsFirstBlockText {
 	position: absolute;
 	top: 100px;
@@ -12,19 +9,9 @@
 }
 .newsBlock {
 	width: 835px;
-	margin: 0 auto;
+	margin: 70px auto 0 auto;
 }
 .newsBlock img {
-	margin-bottom: 50px;
+	display: block;
+	width: 100%;
 }
-
-.openBlock .openBlockContent {
-	height: 34px !important;
-}
-.openBlock .openBlockButton {
-	margin: 50px auto 0px auto !important;
-}
-
-
-
-

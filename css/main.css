@@ -295,7 +295,6 @@ main .article .map {
 	background-color: #fefefe;
 }
 .openBlock .openBlockContent {
-	transition-duration: 1s;
 	height: 0px;
 	overflow: hidden;
 }
@@ -314,6 +313,7 @@ main .article .map {
 }
 .openBlock.opened .openBlockContent {
 	height: auto !important;
+	padding: 10px;
 }
 
 .openBlock .openBlockButton img {
@@ -324,4 +324,27 @@ main .article .map {
 .openBlock .openBlockButton:hover {
 	border-color: rgb(238, 238, 238);
 	background-color: rgb(238, 49, 36);
+}
+.openBlock a {
+    width: 100px;
+    height: 14px;
+    text-align: left;
+    margin: 20px auto 20px 50px;
+    font-size: 12.002px;
+    color: rgb(82, 82, 82);
+    display: block;
+}
+.openBlock a:before {
+    content: url(catalog2FilterBack.png);
+    height: 14px;
+    width: 14px;
+    display: block;
+    text-align: left;
+}
+
+.openBlock img {
+    height: 14px;
+    width: 14px;
+    display: block;
+    text-align: left;
 }
