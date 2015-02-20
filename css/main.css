@@ -106,6 +106,10 @@ main .article hr {
 	background-color: #464646;
 }
 
+main .view-content .views-row-last hr {
+	display: none;
+}
+
 main .article .vr {
 	display: inline-block;
 	border: 1px;
