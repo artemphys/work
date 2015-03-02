@@ -10,6 +10,7 @@
 	<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 	<script src="js/menu.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/catalog2Filter.js"></script>
 	<link rel="stylesheet" href="css/catalog2.css"><!--для страницы каталога 2-->
 	<script>
 		$(function() {
@@ -70,35 +71,71 @@
 <main class="artGray">
 	<div class="article openBlock">
 		<div class="openBlockContent">
-			<a href="#">Все модели</a>
-			<div class="catalogFilter">
+			<!-- view -->
+			<div class="views-exposed-form" style="/*display:none*/">
+				<div class="views-exposed-widgets clearfix">
+					<div id="edit-field-collection-tid-wrapper" class="views-exposed-widget views-widget-filter-field_collection_tid">
+						<label for="edit-field-collection-tid">
+							Collection (field_collection)          </label>
+						<div class="views-widget">
+							<div class="form-item form-type-select form-item-field-collection-tid">
+								<select id="edit-field-collection-tid" name="field_collection_tid" class="form-select"><option value="All" selected="selected">- Any -</option><option value="17">Antique Times</option><option value="16">Nature</option><option value="13">New Day</option><option value="15">Solidity</option><option value="14">Traditions</option></select>
+							</div>
+						</div>
+					</div>
+					<div id="edit-field-material-tid-wrapper" class="views-exposed-widget views-widget-filter-field_material_tid">
+						<label for="edit-field-material-tid">
+							Material (field_material)          </label>
+						<div class="views-widget">
+							<div class="form-item form-type-select form-item-field-material-tid">
+								<select id="edit-field-material-tid" name="field_material_tid" class="form-select"><option value="All" selected="selected">- Any -</option><option value="19">Искусственный гранит tetogranit</option><option value="21">Натуральная медь</option><option value="20">Натуральный гранит</option><option value="18">Нержавеющая сталь</option></select>
+							</div>
+						</div>
+					</div>
+					<div id="edit-field-assembly-tid-wrapper" class="views-exposed-widget views-widget-filter-field_assembly_tid">
+						<label for="edit-field-assembly-tid">
+							Assembly (field_assembly)          </label>
+						<div class="views-widget">
+							<div class="form-item form-type-select form-item-field-assembly-tid">
+								<select id="edit-field-assembly-tid" name="field_assembly_tid" class="form-select"><option value="All" selected="selected">- Any -</option><option value="24">Вровень со столешницей</option><option value="22">Подстольный монтаж</option><option value="23">Врезной монтаж</option></select>
+							</div>
+						</div>
+					</div>
+					<div class="views-exposed-widget views-submit-button">
+						<input type="submit" id="edit-submit-catalog" name="" value="Apply" class="form-submit" />    </div>
+				</div>
+			</div>
+			<!-- view -->
+
+			<a class="" href="#">Все модели</a>
+			<div class="catalogFilter js-collection">
 				<h3>КОЛЛЕКЦИИ</h3>
 				<ul>
-						<li>NEW DAY</li>
-						<li>TRADITIONS</li>
-						<li>SOLIDITY</li>
-						<li>NATURE</li>
-						<li>ANTIQUE TIMES</li>
+						<li><a href="#" id="13">NEW DAY</a></li>
+						<li><a href="" id="14">TRADITIONS</a></li>
+						<li><a href="" id="15">SOLIDITY</a></li>
+						<li><a href="" id="16">NATURE</a></li>
+						<li><a href="" id="17">ANTIQUE TIMES</a></li>
 					</ul>
 				<div class="vr"></div>
 				</div>
-			<div class="catalogFilter">
+			<div class="catalogFilter js-material">
 				<h3>МАТЕРИАЛ</h3>
 				<ul>
-						<li>НЕРЖАВЕЮЩАЯ СТАЛЬ</li>
-						<li>НЕРЖАВЕЮЩАЯ СТАЛЬ, PVD ПОКРЫТИЕ</li>
-						<li>ИСКУССТВЕННЫЙ ГРАНИТ TETOGRANT</li>
-						<li>НАТУРАЛЬНЫЙ ГРАНИТ</li>
-						<li>НАТУРАЛЬНАЯ МЕДЬ</li>
+						<li><a href="" id="18">НЕРЖАВЕЮЩАЯ СТАЛЬ</a></li>
+						<li><a href="" id="0">НЕРЖАВЕЮЩАЯ СТАЛЬ, PVD ПОКРЫТИЕ</a></li>
+						<li><a href="" id="19">ИСКУССТВЕННЫЙ ГРАНИТ TETOGRANT</a></li>
+						<li><a href="" id="20">НАТУРАЛЬНЫЙ ГРАНИТ</a></li>
+						<li><a href="" id="21">НАТУРАЛЬНАЯ МЕДЬ</a></li>
 					</ul>
 				<div class="vr"></div>
 			</div>
-			<div class="catalogFilter">
+			<div class="catalogFilter js-assembly">
 				<h3>МОНТАЖ</h3>
 				<ul>
-						<li>ПОДСТОЛЬНЫЙ МОНТАЖ</li>
-						<li>ВРЕЗНОЙ МОНТАЖ</li>
-						<li>ВРОВЕНЬ СО СТОЛЕШНИЦЕЙ</li>
+						<li><a href="" id="22">ПОДСТОЛЬНЫЙ МОНТАЖ</a></li>
+						<li><a href="" id="23">ВРЕЗНОЙ МОНТАЖ</a></li>
+						<li><a href="" id="24">ВРОВЕНЬ СО СТОЛЕШНИЦЕЙ</a></li>
 					</ul>
 				<div class="vr"></div>
 			</div>
