@@ -6,26 +6,22 @@ $(document).ready(function() {
             results = regex.exec(location.search);
         return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
     };
-    var collectionId = getParameterByName('field_collection_tid');
-    var materialId= getParameterByName('field_collection_tid');
-    var assemblyId= getParameterByName('field_collection_tid');
 
-        $(".js-collection ul li a").click(function() {
+    $(".catalogFilter a").click(function() {
         event.preventDefault();
-        console.log(this.url);
-        location.href = 'catalog2.html?field_collection_tid='+$(this).attr("id")+'&field_material_tid='+materialId+'&field_assembly_tid='+assemblyId;
-    });
+        var names = [];
+        $('.catalogFilter').each(function(){
+            names.push(this.id);
+        })
+        var parameters = {};
 
-    $(".js-material ul li a").click(function() {
-        event.preventDefault();
-        console.log(event.target.id);
-        location.href = 'catalog2.html?field_collection_tid='+collectionId+'&field_material_tid='+$(this).attr("id")+'&field_assembly_tid='+assemblyId;
-    });
+        for (var i = 0; i < names.length; i++) {
+            if(names[i]) {
+                parameters[names[i]] = getParameterByName(names[i]) ? getParameterByName(names[i]) : 'Any';
+            }
+        };
+        parameters[$(this).closest('.catalogFilter').attr("id")] = $(this).attr("id");
 
-    $(".js-assembly ul li a").click(function() {
-        event.preventDefault();
-        console.log(event.target.id);
-        location.href = 'catalog2.html?field_collection_tid='+collectionId+'&field_material_tid='+materialId+'&field_assembly_tid='+$(this).attr("id");
+        location.href = '?' + $.param(parameters);
     });
-
 });
